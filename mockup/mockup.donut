@@ -1,0 +1,20 @@
+(ql:quickload :donuts)
+(in-package :donuts)
+
+;(let (wifi-hotspot (<> "wifi hotspot")))
+($$ (& (:layout "neato" :overlap "false" :splines "curved" :outputorder "edgesfirst")
+      
+					;(<>
+      (<> "server app" :shape "rectangle" :fontname "Monospace" :fontsize "11") 
+
+      
+      (-< "embot1"
+	  "parrot"
+	  "ircd")
+
+      (O "twillio"
+	 "SMS"
+	 "parrot")
+      
+))
+
